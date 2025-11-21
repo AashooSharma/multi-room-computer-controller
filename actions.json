@@ -1,0 +1,22 @@
+{
+  "actions": [
+    {
+      "id": "restart_pc",
+      "name": "Restart System",
+      "type": "system",
+      "command": "shutdown /r /t 0"
+    },
+    {
+      "id": "shutdown_pc",
+      "name": "Shutdown System",
+      "type": "system",
+      "command": "shutdown /s /t 0"
+    },
+    {
+      "id": "open_google",
+      "name": "Open Google",
+      "type": "url",
+      "url": "https://google.com"
+    }
+  ]
+}
