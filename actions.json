@@ -1,22 +1,22 @@
-{
-  "actions": [
+[
     {
-      "id": "restart_pc",
-      "name": "Restart System",
-      "type": "system",
-      "command": "shutdown /r /t 0"
+        "action_id": "ac001",
+        "action_name": "Restart System",
+        "action_type": "restart",
+        "payload": {}
     },
     {
-      "id": "shutdown_pc",
-      "name": "Shutdown System",
-      "type": "system",
-      "command": "shutdown /s /t 0"
+        "action_id": "ac002",
+        "action_name": "Shutdown System",
+        "action_type": "shutdown",
+        "payload": {}
     },
     {
-      "id": "open_google",
-      "name": "Open Google",
-      "type": "url",
-      "url": "https://google.com"
+        "action_id": "ac003",
+        "action_name": "Open Google",
+        "action_type": "open_url",
+        "payload": {
+            "url": "https://google.com"
+        }
     }
-  ]
-}
+]
