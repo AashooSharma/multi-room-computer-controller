@@ -1,0 +1,24 @@
+{
+  "rooms": [
+    {
+      "id": "room_1101",
+      "name": "Room 1101",
+      "computers": ["PC-1", "PC-2", "PC-3"]
+    },
+    {
+      "id": "room_2103",
+      "name": "Room 2103",
+      "computers": ["PC-4", "PC-5", "PC-6", "PC-7"]
+    },
+    {
+      "id": "room_3102",
+      "name": "Room 3102",
+      "computers": ["PC-8", "PC-9"]
+    },
+    {
+      "id": "room_4104",
+      "name": "Room 4104",
+      "computers": ["PC-10", "PC-11", "PC-12"]
+    }
+  ]
+}
